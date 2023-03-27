@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>My Marvel Fan Page</title>
+    <!-- Boostrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My First Project</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html"
+                  >Index</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/page2.html">Page 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/marvel.html">Marvel Heroes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+        <img class="logoImage" src="/img/Marvel_Logo.png" alt="Marvel Logo">
+        <h1>Welcome to my Marvel fan page</h1>
+        <h2>What I know about Marvel</h2>
+        <p>Marvel Comics is an American comic book publisher and the flagship property of Marvel Entertainment, a division of The Walt Disney Company since September 1, 2009. Evolving from Timely Comics in 1939, Magazine Management/Atlas Comics in 1951 and its predecessor, Marvel Mystery Comics, the Marvel Comics title/name/brand was first used in June 1961.</p>
+        <p>Marvel was started in 1939 by Martin Goodman as Timely Comics, and by 1951 had generally become known as Atlas Comics. The Marvel era began in June 1961 with the launch of The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years and decades, was solidified as the company's primary brand.</p>
+        <h2 id="heroText">List of Heroes</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr id="tableHeader">
+                    <th>Super Hero</th>
+                    <th>Alter Ego</th>
+                    <th>Power</th>
+                    <th>Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="oddrow">
+                    <td>Spider-Man</td>
+                    <td>Peter Parker</td>
+                    <td>Climb Walls, Super Strength, Web Slinger</td>
+                    <td><img src="/img/spidey.jpeg" alt="Spider-Man" class="heroImage"></td>
+                </tr>
+                <tr class="evenrow">
+                    <td>Power Man</td>
+                    <td>Luke Cage</td>
+                    <td>Unbreakable Skin, Super Strength</td>
+                    <td><img src="/img/lukecage.png" alt="Luke Cage" class="heroImage"></td>
+                </tr>
+                <tr class="oddrow">
+                    <td>Iron Man</td>
+                    <td>Tony Stark</td>
+                    <td>Biollionare, Inventor, Genius</td>
+                    <td><img src="/img/ironman-bleeding-edge.jpg" alt="Iron Man" class="heroImage"></td>
+                </tr>
+                <tr class="evenrow">
+                    <td>Captain America</td>
+                    <td>Steve Rogers</td>
+                    <td>Super Soldier, Super Strength</td>
+                    <td><img src="/img/ClassicCap.png" alt="Captain America" class="heroImage"></td>
+                <tr class="oddrow">
+                    <td>Groot</td>
+                    <td>Groot</td>
+                    <td>Regeneration, Invulnerable to Projectiles, Regrown into new Groot</td>
+                    <td><img src="/img/BabyGroot.jpg" alt="Groot" class="heroImage"></td>
+                </tr>
+                <tr class="evenrow">
+                    <td>Doctor Strange</td>
+                    <td>Stephen Strange</td>
+                    <td>Spells, Astral Projection, Portals</td>
+                    <td><img src="/img/DrStrange.jpg" alt="Doctor Strange" class="heroImage"></td>
+                <tr class="oddrow">
+                    <td>Blade</td>
+                    <td>Eric Brooks</td>
+                    <td>Vampire strengths without their weaknesses, Super Strength, Martial Arts </td>
+                    <td><img src="/img/Blade.png" alt="Blade" class="heroImage"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+
+    <!-- Boostrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
