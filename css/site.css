@@ -52,3 +52,16 @@ header{
 table{
     width: 90%;
 }
+
+.grootimg{
+    float: right;
+    max-width: 400px;
+}
+.center{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    text-align: center;
+
+}
