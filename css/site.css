@@ -63,9 +63,26 @@ table{
     left: 15%;
     top: 20%;
     text-align: center;
-
 }
 .center h2{
     font-weight: 400;
     font-size: 1.5em;
+}
+
+.minHeight{
+    min-height: 80vh;
+}
+
+.grootsize img{
+    width: 421px;
+    border-radius: 50px;
+}
+
+.bg-darkgreen{
+    background-color: #4b584d;
+    border-radius: 50px;
+}
+
+.grootpage{
+    background-color: rgb(202, 202, 202);
 }
